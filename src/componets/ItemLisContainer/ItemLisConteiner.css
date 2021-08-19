@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+.marco{
+    padding-top: 5rem;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.mujerHombre {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.mujerHombre img{
+    width: 100%;
+}
+
+.mujerHombre:hover{
+    opacity: 0.7;
+}

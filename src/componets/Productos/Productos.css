@@ -1,0 +1,57 @@
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap
+    
+}
+
+.productos{
+    padding: 5rem 2rem;
+    margin: 0 auto;
+    gap: 3rem 2rem;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 10px 10px 2px black;
+    border: 6px solid transparent;
+    border-radius: 5px;
+    z-index: 0;
+}
+.producto:hover{
+    border: 6px solid #0c0b0f77 ;
+}
+
+
+.titulo{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    
+}
+.precio{
+    font-size: 2rem;
+    color: #1a202c;
+}
+
+Button{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+Button:hover{
+    background-color: white;
+    color: black;
+}
