@@ -1,6 +1,6 @@
-
 import React from 'react'
 import {Card, Button} from 'react-bootstrap';
+import ItemCouts from './ItemCouts';
 import './Productos.css';
 
 export const ItemProductosHombre = ({character}) => {
@@ -14,6 +14,7 @@ export const ItemProductosHombre = ({character}) => {
                             <Card.Text>
                                 <p className="precio">$ {character.price} </p>
                             </Card.Text>
+                            <ItemCouts/>
                             <Button variant="primary">Agregar al Carrito</Button>
                         </Card.Body>
                     </Card>

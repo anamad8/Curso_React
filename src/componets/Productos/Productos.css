@@ -13,11 +13,13 @@
     gap: 3rem 2rem;
     box-sizing: border-box;
     z-index: 0;
+
 }
 
 .producto{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     box-shadow: 1px 10px 10px 2px black;
     border: 6px solid transparent;
@@ -54,4 +56,19 @@ Button{
 Button:hover{
     background-color: white;
     color: black;
+}
+
+.contador{
+    display: flex;
+    
+}
+
+.contador button{
+    padding: 3px 5px;
+    margin-left: 25px;
+    margin-bottom: 6px;
+    margin-right: 25px;
+    border-radius: 5px;
+    font-size: 2em;
+
 }
