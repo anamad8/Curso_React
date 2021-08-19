@@ -16,7 +16,7 @@ const ApiHombre = [
     {
         id: 3,
         titel: "BUZO CANGURO ESTAMPADOS",
-        price: 2.080,
+        price: 2.145,
         imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20210526/1865/28667206.jpeg',
         cantidad: 1
     },
@@ -30,7 +30,7 @@ const ApiHombre = [
     {
         id: 5,
         titel: "CONJUNTO DEPORTIVO DE RUSTICO CON LYCRA",
-        price: 4.650,
+        price: 4.525,
         imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20210811/2109/81120305.jpg',
         cantidad: 1
     },
