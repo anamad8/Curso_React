@@ -11,13 +11,13 @@ export const ItemProductosMujer = ({character}) => {
     return (
             <div className="productos">
                 <Card className="producto"> 
-                        <Card.Img variant="top" style={{ width: "250px" }} src={character.imagen} />
+                        <Card.Img variant="top" src={character.imagen} />
                         <Card.Body>
                             <Card.Title className="titulo"> {character.titel}</Card.Title>
                             <Card.Text>
                                 <p className="precio">$ {character.price} </p>
                             </Card.Text>
-                            <ItemCouts/> 
+                            <ItemCouts stock={5} initial={1}/> 
                             <Button variant="primary">Agregar al Carrito</Button>
                         </Card.Body>
                     </Card>

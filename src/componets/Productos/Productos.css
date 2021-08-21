@@ -30,6 +30,10 @@
     border: 6px solid #0c0b0f77 ;
 }
 
+.producto img{
+    width: 250px;
+    height: 300px;
+}
 
 .titulo{
     font-weight: 600;
@@ -40,6 +44,7 @@
 }
 .precio{
     font-size: 2rem;
+    font-weight: 600;
     color: #1a202c;
 }
 
@@ -71,4 +76,9 @@ Button:hover{
     border-radius: 5px;
     font-size: 2em;
 
+}
+
+.contador p{
+    font-weight: 800;
+    font-size: 1rem;
 }

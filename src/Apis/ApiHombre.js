@@ -40,6 +40,27 @@ const ApiHombre = [
         price: 2.145,
         imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20210804/1389/32459531.jpg',
         cantidad: 1
+    },
+    {
+        id: 7,
+        titel: "REMERA TAKE IT",
+        price: 525,
+        imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20210217/1823/36897498.jpg',
+        cantidad: 1
+    },
+    {
+        id: 8,
+        titel: "JEAN BORDADO",
+        price: 1.525,
+        imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20200924/1823/46662474.jpg',
+        cantidad: 1
+    },
+    {
+        id: 9,
+        titel: "JEAN ROY",
+        price: 1.545,
+        imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20210409/2055/47859527.jpg',
+        cantidad: 1
     }
 ];
 

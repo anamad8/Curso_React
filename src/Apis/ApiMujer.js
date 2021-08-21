@@ -40,6 +40,20 @@ const ApiMujer = [
         price: 1.145,
         imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20200722/1925/97124149.jpg',
         cantidad: 1
+    },
+    {
+        id: 7,
+        titel: "REMERON MORLEY TAJO",
+        price: 745,
+        imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20210811/1728/58841489.jpg',
+        cantidad: 1
+    },
+    {
+        id: 8,
+        titel: "SWEATER LANILLA",
+        price: 645,
+        imagen: 'https://netivooregon.s3.amazonaws.com/attach/modelo/20210417/2000/14780644.jpg',
+        cantidad: 1
     }
 ];
 

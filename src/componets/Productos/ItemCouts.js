@@ -1,38 +1,27 @@
-import React from 'react';
+import { React, useState } from "react";
 import './Productos.css';
 
-class ItemCouts extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { number: 1 };
-    }
+function ItemCouts({ stock, initial }) {
 
-    onIncrease() {
-        
-            if(this.state.number < 5){
-                this.setState({ number: this.state.number + 1 });
-            }
+    const [counter, setCounter] = useState(initial);
 
-    };
-    
-
-    onDecreae() {
-        if(this.state.number >1){
-            this.setState({ number: this.state.number - 1 });
+    return (
+    <div className="contador">
+        <button onClick={() => {
+            if (counter < stock) {
+            setCounter(counter + 1);
         }
-    }
-
-    render() {
-        return (
-        <div className="contador">
-            <button onClick={this.onIncrease.bind(this)}> + </button>
-            <p>{this.state.number}</p>
-            <button onClick={this.onDecreae.bind(this)}> - </button>
-            
-        </div>
-        );
-    }
+    }}> + </button>
+    <p>{counter}</p>
+    <button onClick={() => {
+        if (counter > initial) {
+            setCounter(counter - 1);
+        }
+        }}> - </button>
+    </div>
+);
 }
 
 export default ItemCouts;
+
 
