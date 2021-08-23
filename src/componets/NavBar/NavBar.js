@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo from '../Img/logo.jpg';
+import { CartWidget } from './CartWidget';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 import 'boxicons';
 
@@ -7,15 +8,13 @@ import 'boxicons';
 function NavBar() {
     return (
             <header>
-                <div>
-                    <a href="#"><img src={Logo} alt="logo" width="75" /></a>
-                </div>
+                <CartWidget/>
                 <ul>
                     <li>
-                        <a href="#">MUJER</a>
+                        <Link to="/ProductosMujer">MUJER</Link>
                     </li>
                     <li>
-                        <a href="#">HOMBRE</a>
+                        <Link to="/ProductosHombre">HOMBRE</Link>
                     </li>
                 </ul>
                 <div className="cart">
